@@ -1,0 +1,30 @@
+{
+  "name": "academic-writing",
+  "version": "1.0.0",
+  "description": "Evidence-grounded academic writing with coherent structure, direct language, and faithful editing.",
+  "author": {
+    "name": "Academic Writing contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "chinese",
+    "editing",
+    "coherence"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Academic Writing 学术写作",
+    "shortDescription": "论证清楚，表达自然，保留证据边界",
+    "longDescription": "用于学术文本写作、润色、重写和审校。围绕研究问题组织证据，减少空泛修辞与防御性表达，核对事实与结论范围。默认中文正文仅使用逗号和句号，技术信息优先无损转写。本插件仅包含指令与参考资料，不运行实验或提供自动事实认证。",
+    "developerName": "Academic Writing contributors",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "请润色以下学术段落，保留事实和必要限定，只输出修改后的正文。",
+      "请检查这段论文的论证连贯性，指出证据与主张不匹配的位置。",
+      "请重写这段摘要，清楚说明研究问题、方法、结果和适用范围。"
+    ]
+  },
+  "homepage": "https://github.com/LucasYao322/academic-writing",
+  "repository": "https://github.com/LucasYao322/academic-writing"
+}

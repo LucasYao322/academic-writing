@@ -1,0 +1,20 @@
+{
+  "name": "academic-writing-marketplace",
+  "interface": {
+    "displayName": "Academic Writing"
+  },
+  "plugins": [
+    {
+      "name": "academic-writing",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

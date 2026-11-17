@@ -1,0 +1,13 @@
+{
+  "name": "academic-writing-marketplace",
+  "owner": {
+    "name": "Academic Writing contributors"
+  },
+  "plugins": [
+    {
+      "name": "academic-writing",
+      "source": "./",
+      "description": "学术写作、润色与审校，保留事实和证据边界。"
+    }
+  ]
+}

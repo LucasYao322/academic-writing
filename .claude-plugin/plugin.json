@@ -1,0 +1,17 @@
+{
+  "name": "academic-writing",
+  "version": "1.0.0",
+  "description": "Evidence-grounded academic writing with coherent structure, direct language, and faithful editing.",
+  "author": {
+    "name": "Academic Writing contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "chinese",
+    "editing",
+    "coherence"
+  ],
+  "homepage": "https://github.com/LucasYao322/academic-writing",
+  "repository": "https://github.com/LucasYao322/academic-writing"
+}
