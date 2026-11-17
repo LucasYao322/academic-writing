@@ -1,0 +1,22 @@
+name: Package release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v1.0.0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s scripts/tests -v
+      - run: python scripts/build.py
+      - name: Upload release archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v1.0.0 dist/academic-writing-1.0.0-source.zip dist/academic-writing-1.0.0-plugin.zip dist/SHA256SUMS --repo "$GITHUB_REPOSITORY" --clobber

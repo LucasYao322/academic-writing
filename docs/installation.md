@@ -78,7 +78,7 @@ python scripts/build.py
 
 将仓库推送至你有权限的公开 GitHub 仓库即可提供 marketplace 安装。发布前确认 [来源说明](../NOTICE.md) 和两份上游许可随仓库保留，再将公开地址补入 README。GitHub 发布不会自动将插件上架到 OpenAI 或 Anthropic 的官方目录。官方目录提交是独立流程。
 
-项目提供只读权限的 GitHub Actions 验证工作流，生成构建产物，不会自动创建远程仓库或发布 Release。
+项目提供只读权限的 GitHub Actions 验证工作流。另有手动触发的 Package release 工作流，以 contents write 权限为既有 v1.0.0 Release 上传插件包和校验值，不创建仓库。后续版本需更新发布工作流中的版本引用。
 
 ## 规范依据
 

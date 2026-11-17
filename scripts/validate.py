@@ -26,6 +26,7 @@ DISTRIBUTION_FILES = (
     ".claude-plugin/plugin.json",
     ".codex-plugin/plugin.json",
     ".github/workflows/validate.yml",
+    ".github/workflows/release.yml",
     ".gitignore",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
