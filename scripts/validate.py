@@ -44,6 +44,14 @@ DISTRIBUTION_FILES = (
     "scripts/tests/test_packaging.py",
     "skills/academic-writing/SKILL.md",
     "skills/academic-writing/references/examples.md",
+    "skills/academic-writing/references/chapter-writing.md",
+    "skills/academic-writing/references/literature-synthesis.md",
+    "skills/academic-writing/references/academic-translation.md",
+    "skills/academic-writing/references/editing-levels.md",
+    "skills/academic-writing/references/reference-editing.md",
+    "skills/academic-writing/references/figure-planning.md",
+    "skills/academic-writing/references/cover-letter.md",
+
     "skills/academic-writing/references/review-checklist.md",
 )
 

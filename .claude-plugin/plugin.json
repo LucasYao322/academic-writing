@@ -1,7 +1,7 @@
 {
   "name": "academic-writing",
-  "version": "1.1.0",
-  "description": "Academic writing with Anti-Defensive argument planning, Humanizer polishing, and source-based fidelity review.",
+  "version": "1.2.0",
+  "description": "Task-aware research writing, translation, reference editing and figure planning with evidence-grounded review.",
   "author": {
     "name": "Academic Writing contributors"
   },

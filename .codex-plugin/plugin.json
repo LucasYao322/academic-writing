@@ -1,7 +1,7 @@
 {
   "name": "academic-writing",
-  "version": "1.1.0",
-  "description": "Academic writing with Anti-Defensive argument planning, Humanizer polishing, and source-based fidelity review.",
+  "version": "1.2.0",
+  "description": "Task-aware research writing, translation, reference editing and figure planning with evidence-grounded review.",
   "author": {
     "name": "Academic Writing contributors"
   },
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Academic Writing 学术写作",
     "shortDescription": "论证清楚，表达自然，保留证据边界",
-    "longDescription": "用于学术文本写作、润色、重写和审校。围绕研究问题组织证据，减少空泛修辞与防御性表达，核对事实与结论范围。默认中文正文仅使用逗号和句号，技术信息优先无损转写。本插件仅包含指令与参考资料，不运行实验或提供自动事实认证。",
+    "longDescription": "按科研任务选择篇章写作、文献综合、翻译、分级编辑、参考文献整理、图示规划或投稿信流程。论证任务使用 Anti-Defensive 规划、Humanizer 润色和事实复核。插件包含指令与参考材料，不自带检索、绘图或自动投稿服务。",
     "developerName": "Academic Writing contributors",
     "category": "Productivity",
     "defaultPrompt": [
