@@ -66,8 +66,8 @@ python scripts/build.py
 
 输出位于 `dist/`。
 
-- `academic-writing-1.2.0-source.zip` 包含一层 academic-writing 目录，适合解压为 GitHub 项目。
-- `academic-writing-1.2.0-plugin.zip` 在 ZIP 根目录放置插件文件，适合需要插件 ZIP 的导入界面，也可解压后本地安装。
+- `academic-writing-1.1.0-source.zip` 包含一层 academic-writing 目录，适合解压为 GitHub 项目。
+- `academic-writing-1.1.0-plugin.zip` 在 ZIP 根目录放置插件文件，适合需要插件 ZIP 的导入界面，也可解压后本地安装。
 - `SHA256SUMS` 提供两个压缩包的 SHA256 校验值。
 
 两种压缩包的文件内容相同，只有根目录布局不同。构建使用显式文件白名单，固定 ZIP 时间戳和权限，不包含 Git 历史、缓存、环境配置或未列入清单的稿件。新增需要发布的文件后，需更新 `scripts/validate.py` 中的 `DISTRIBUTION_FILES`。
@@ -78,7 +78,7 @@ python scripts/build.py
 
 将仓库推送至你有权限的公开 GitHub 仓库即可提供 marketplace 安装。发布前确认 [来源说明](../NOTICE.md) 和两份上游许可随仓库保留，再将公开地址补入 README。GitHub 发布不会自动将插件上架到 OpenAI 或 Anthropic 的官方目录。官方目录提交是独立流程。
 
-项目提供只读权限的 GitHub Actions 验证工作流。另有手动触发的 Package release 工作流，以 contents write 权限为既有 v1.2.0 Release 上传插件包和校验值，不创建仓库。后续版本需更新发布工作流中的版本引用。
+项目提供只读权限的 GitHub Actions 验证工作流。另有手动触发的 Package release 工作流，以 contents write 权限为既有 v1.1.0 Release 上传插件包和校验值，不创建仓库。后续版本需更新发布工作流中的版本引用。
 
 ## 规范依据
 

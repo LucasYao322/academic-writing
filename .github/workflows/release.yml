@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: v1.2.0
+          ref: v1.1.0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -19,4 +19,4 @@ jobs:
       - name: Upload release archives
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload v1.2.0 dist/academic-writing-1.2.0-source.zip dist/academic-writing-1.2.0-plugin.zip dist/SHA256SUMS --repo "$GITHUB_REPOSITORY" --clobber
+        run: gh release upload v1.1.0 dist/academic-writing-1.1.0-source.zip dist/academic-writing-1.1.0-plugin.zip dist/SHA256SUMS --repo "$GITHUB_REPOSITORY" --clobber
