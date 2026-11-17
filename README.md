@@ -2,6 +2,8 @@
 
 把研究问题、证据和结论写清楚的中文学术写作插件。整合学术表达、反防御性写作和自然行文规则，支持润色、重写、压缩与审校。
 
+v1.1.0 采用三个顺序阶段。Anti-Defensive Writing 指导论证，Humanizer 执行润色，最后对照原文复核事实。两个上游项目的规则已蒸馏进本插件，不需要额外安装，也不自动调用第二个模型。
+
 同一份 [Skill](skills/academic-writing/SKILL.md) 供 Codex、Claude Code 和支持 Agent Skills 的工具使用。插件本身只有指令和参考材料，无运行时依赖、MCP 服务或账号要求。
 
 ## 默认行为

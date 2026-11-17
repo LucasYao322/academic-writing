@@ -1,7 +1,7 @@
 {
   "name": "academic-writing",
-  "version": "1.0.0",
-  "description": "Evidence-grounded academic writing with coherent structure, direct language, and faithful editing.",
+  "version": "1.1.0",
+  "description": "Academic writing with Anti-Defensive argument planning, Humanizer polishing, and source-based fidelity review.",
   "author": {
     "name": "Academic Writing contributors"
   },
